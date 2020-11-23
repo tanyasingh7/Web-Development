@@ -1,0 +1,92 @@
+#Header {
+  text-align: center;
+  font-size: 24px;
+}
+
+#button {
+  text-align: center;
+}
+
+p,
+#option {
+  text-align: center;
+  color: black;
+}
+
+#win {
+  text-align: center;
+}
+
+#img1 {
+  width: 30%;
+  height: 427px;
+  display: inline-block;
+  margin: 50px 50px 50px 50px;
+}
+
+#img2 {
+  width: 30%;
+  height: 427px;
+  display: inline-block;
+  margin: 50px 50px 50px 100px;
+}
+
+.images {
+  display: block;
+  margin: 30px auto;
+  align-items: center;
+}
+
+.clear {
+  clear: both;
+}
+
+#img3 {
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+textarea {
+  color: red;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+#convert1 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+#convert2 {
+  text-align: center;
+}
+
+#prize {
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+body {
+  background-color: gray;
+  color: white;
+}
+
+h1 {
+  color: black;
+}
