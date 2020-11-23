@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #429CB4
+}

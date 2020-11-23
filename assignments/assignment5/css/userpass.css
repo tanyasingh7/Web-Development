@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Alatsi', sans-serif;
+  text-align: center;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+body {
+  background-color: #429CB4;
+}
+
+fieldset {
+  color: black;
+  border-color: black;
+}

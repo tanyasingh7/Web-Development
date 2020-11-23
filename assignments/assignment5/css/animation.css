@@ -1,0 +1,29 @@
+#name {
+background-color: black;
+color: white;
+position: absolute;
+height:50px;
+width: 100px;
+padding: 10px;
+text-align: center;
+ }
+
+ h1, h2 {
+   text-align: center;
+ }
+
+ h1 {
+   font-family: 'Oswald', sans-serif;
+ }
+
+ h2 {
+   font-family: 'Alatsi', sans-serif;
+ }
+
+#button {
+  text-align: center;
+}
+
+body {
+  background-color: #429CB4;
+}
