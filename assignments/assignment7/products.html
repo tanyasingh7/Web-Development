@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Products</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Nanum+Myeongjo|News+Cycle|Pathway+Gothic+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat|Poiret+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alata|Lato|Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <form action='search.php' method = 'post'>
+    <div id='searchbox'>
+    Search Products <input type="text" name="sc" id="search2" placeholder="Product Name">
+    <input type='submit' value ='Search' name='searchbutton'>
+  </div>
+</form>
+  <div id='buttons2'>
+    <div id='mbut'>
+      <button id='mm'> Main Menu </button><br>
+    </div>
+    <div id='lbut'>
+  <button id='lbut2'> Log In </button>
+  <button id='rbut2'> Register</button>
+</div>
+  </div>
+    <h1 id='title'> official tanya singh merchandise</h1>
+    <hr>
+
+    <div class="row">
+  <div class="column">
+    <h3> The Offical Tanya Singh Hoodie ($45) </h3>
+    <img src="css/img/hoodie.jpeg" alt="hoodie" style="width:100%">
+  </div>
+  <div class="column">
+    <h3> The Offical Tanya Singh Short Sleeve T-Shirt ($15) </h3>
+    <img src="css/img/tshirt.jpeg" alt="tshirt" style="width:100%">
+  </div>
+  <div class="column">
+    <h3> The Offical Tanya Singh Long Sleeve T-Shirt ($30) </h3>
+    <img src="css/img/longsleeve.jpeg" alt="longsleeve" style="width:100%">
+  </div>
+
+</div>
+<div class="row">
+<div class="column">
+  <h3> The Offical Tanya Singh Mug ($20) </h3>
+<img src="css/img/mug.jpeg" alt="mug" style="width:100%">
+</div>
+<div class="column">
+  <h3> The Offical Tanya Singh Tote Bag ($25) </h3>
+<img src="css/img/tote.jpeg" alt="totebag" style="width:100%">
+</div>
+<div class="column">
+  <h3> The Offical Tanya Singh Baseball Hat ($25) </h3>
+<img src="css/img/hat.jpeg" alt="hat" style="width:100%">
+</div>
+</div>
+<hr>
+
+<h1 id='sss1'> Items Selling Out Fast! Order Yours Now! </h1>
+<form action="shop.php" method="post">
+  <fieldset>
+    <h1 class='form'> The Official Tanya Singh Hoodie - $45 </h1>
+    <br>
+  <h4 class='product'>Size: </h4>
+  <select name="hoodiesize" id='hoodiesize' form="hoodiesizeform">
+  <option value="small">Small</option>
+  <option value="medium">Medium</option>
+  <option value="large">Large</option>
+  <option value="xl">Extra Large</option>
+</select>
+<br>
+<br>
+<h4 class='product'>Quantity: </h4>
+<input type="number" name="hoodiequantity" id="hoodiequantity" min="0" value='0'>
+    <br>
+    <br>
+    <div id='hoodieresult'></div>
+    <!-- hoodie -->
+  </fieldset>
+  <br>
+  <fieldset>
+    <h1 class='form'> The Official Tanya Singh T-Shirt - $15 </h1>
+    <br>
+    <h4 class='product'>Size: </h4>
+    <select name="tshirtsize" form="tshirtsize" id='tshirtsize'>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xl">Extra Large</option>
+  </select>
+  <br>
+  <br>
+  <h4 class='product'>Quantity: </h4>
+  <input type="number" name="tshirtquantity" id="tshirtquantity" min="0" value='0' >
+      <br>
+      <br>
+      <div id='tshirtresult'></div>
+    <br>
+    <!-- tshirt -->
+  </fieldset>
+  <br>
+  <fieldset>
+    <h1 class='form'> The Official Tanya Singh Long Sleeve T-Shirt - $30  </h1>
+    <br>
+    <h4 class='product'>Size: </h4>
+    <select name="longsleevesize" form="longsleevesize" id='longsleevesize'>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    <option value="xl">Extra Large</option>
+  </select>
+  <br>
+  <br>
+  <h4 class='product'>Quantity: </h4>
+  <input type="number" name="longsleevequantity" id="longsleevequantity" min="0" value='0'>
+      <br>
+      <br>
+      <div id='longsleeveresult'></div>
+    <br>
+    <!-- long sleeve -->
+  </fieldset>
+  <br>
+  <fieldset>
+    <h1 class='form'> The Official Tanya Singh Mug - $20 </h1>
+    <br>
+  <h4 class='product'>Quantity: </h4>
+  <input type="number" name="mugquantity" id="mugquantity" min="0" value='0'>
+      <br>
+      <br>
+      <div id='mugresult'></div>
+    <br>
+    <!-- mug -->
+  </fieldset>
+  <br>
+  <fieldset>
+    <h1 class='form'> The Official Tanya Singh Tote Bag - $25 </h1>
+    <br>
+  <h4 class='product'>Quantity: </h4>
+  <input type="number" name="totebagquantity" id="totebagquantity" min="0" value='0' >
+      <br>
+      <br>
+      <div id='totebagresult'></div>
+    <br>
+    <!-- tote bag -->
+  </fieldset>
+  <br>
+  <fieldset>
+    <h1 class='form'> The Official Tanya Singh Baseball Hat - $25</h1>
+    <br>
+  <h4 class='product'>Quantity: </h4>
+  <input type="number" name="hatquantity" id="hatquantity" min="0" value='0' >
+      <br>
+      <br>
+      <div id='hatresult'></div>
+    <br>
+    <!-- hat -->
+  </fieldset>
+  <hr>
+  <fieldset>
+  <h4 class='product'>Choose a shipping method : </h4>
+  <br>
+  <input type="radio" name="shipping" class='ship' onclick="shippingprice()" value="$15.99" id="shipping1">  Overnight Shipping ($15.99)<br>
+  <input type="radio" name="shipping" class='ship' onclick="shippingprice()" value="$7.99" id='shipping2'>  Expedited Shipping ($7.99)<br>
+  <input type="radio" name="shipping" class='ship' onclick="shippingprice()" value="$2.99" id='shipping3'>  Regular Shipping ($2.99)
+  <!-- I use the 'checked' method later with a different radio option because using checked messed up the grand total with shipping method -->
+</fieldset>
+<div id='resetbutton'>
+  <input type="reset" value="Reset" />
+</div>
+  <div id='shippingresult2'>
+  <br>
+  <h4 class='product'>Shipping Price: </h4>
+  <input type="text" id="shippingresult">
+  <br>
+  </div>
+  <br><br><br><br><br>
+  <hr>
+  <br>
+  <div id='grandtotal2'></div>
+  <br>
+<br>
+<br>
+
+  <hr>
+  <h1 id='sss2'> Checkout </h1>
+  <br>
+  <fieldset>
+  <h2 id='custinfo'> Customer Information </h2>
+  First Name:
+  <input type="text" name="First Name" id="firstname" placeholder="First Name"><br>
+  <br>
+  Last Name:
+  <input type="text" name="Last Name" id="lastname" placeholder="Last Name"><br>
+  <br>
+  Phone Number:
+  <input type="text" name="Phone Number" id="phonenumber" placeholder="xxx-xxx-xxxx"><br><br>
+  Email:
+  <input type="email" name="Email" id="email" placeholder="someone@example.com"><br>
+</fieldset>
+<br>
+<fieldset>
+  <h2 id='address'> Shipping Address </h2>
+  Address:
+  <input type="text" name="Address" id="address2" placeholder="Street Name/Number"><br><br>
+  City:
+  <input type="text" name="City" id="city" placeholder="City"><br><br>
+  Country:
+  <input type="text" name="Country" id="country" placeholder="Country"><br><br>
+  State:
+  <input type="text" name="State" id="state" placeholder="State"><br><br>
+  Zip Code:
+  <input type="text" name="Zipcode" id="zipcode" placeholder="Zipcode"><br><br>
+</fieldset>
+<br>
+<fieldset>
+<h2 id='ccinfo'> Credit Card Information </h2>
+Name on Card:
+<input type="text" name="Credit Card Name" id="ccname" placeholder="First / Last "><br><br>
+Credit Card Number:
+<input type="text" name="Credit Card Number" id="ccnumber" placeholder="XXXX-XXXX-XXXX-XXXX"><br><br>
+Expiration Date
+<input type="text" name="Credit Card Expiration Date" id="ccdate" placeholder="XX/XX"><br><br>
+Security Code:
+<input type="text" name="Credit Card Security Code" id="scode" placeholder="XXX"><br><br>
+Card Type:
+<br>
+<br>
+<input type="radio" name="cardtype" class='cardtype'  value="visa" checked>  Visa
+<input type="radio" name="cardtype" class='cardtype'  value="discover">  Discover
+<input type="radio" name="cardtype" class='cardtype'  value="chase">  Chase
+<input type="radio" name="cardtype" class='cardtype'  value="mastercard">  Master Card
+<input type="radio" name="cardtype" class='cardtype'  value="americanexpress">  American Express <br>
+</fieldset>
+
+<div id='buttons'>
+  <input type="reset" value="Reset" />
+  <input type="submit" value="Check Out" >
+</div>
+
+</form>
+<hr>
+<h1 id='receipt_header'></h1>
+<h2 id='date'></h2>
+<div id='billedto'>
+  <h2 id='billheader'></h2>
+  <p id='rname'></p>
+  <p id='raddress'></p>
+  <p id='rsecondaddress'></p>
+  <p id='rcountry'></p>
+</div>
+  <br>
+  <h2 id='purchasedheader'></h2>
+  <hr>
+  <p id='rhoodie'></p>
+  <p id='rhoodiesize'></p>
+  <p id='rtshirt'></p>
+  <p id='rtshirtsize'></p>
+  <p id='rlongsleeve'></p>
+  <p id='rlongsleevesize'></p>
+  <p id='rmug'></p>
+  <p id='rmugsize'></p>
+  <p id='rtote'></p>
+  <p id='rtotesize'></p>
+  <p id='rhat'></p>
+  <p id='rhatsize'></p>
+  <h2 id='shippingheader'></h2>
+  <p id='rshippingmethod'></p>
+  <hr>
+  <p id='rgrandtotal'></p>
+  <div id='ship'>
+  <h2 id='shippingdetails'></h2>
+  <p id='sname'></p>
+  <p id='semail'></p>
+  <p id='sphone'></p>
+  <p id='saddress'></p>
+  <p id='sadresstwo'></p>
+  <p id='scountry'></p>
+</div>
+  <br>
+  <div id='pay'>
+  <h2 id='paymentdetails'></h2>
+  <p id='pname'></p>
+  <p id='pccinfo'></p>
+  <p id='pccdate'></p>
+</div>
+  <br>
+  <br>
+  <h1 id='thanks'></h1>
+
+
+
+<p id="output">
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script type="text/javascript" src="app.js"> </script>
+
+  </body>
+</html>

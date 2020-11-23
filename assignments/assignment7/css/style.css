@@ -1,0 +1,229 @@
+#title {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.form {
+  font-size: 22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: left;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#grandtotal2,
+#shippingprice,
+#shippingresult2 {
+  float: right;
+}
+
+
+#sss1 {
+  color: red;
+  font-family: 'Caveat', cursive;
+  font-size: 44px;
+}
+
+#sss2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+}
+
+.product,
+.ship,
+form {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  margin: 2px;
+}
+
+input {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 14px;
+}
+
+#custinfo,
+#address,
+#ccinfo {
+  background-color: red;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 200px;
+}
+
+#grandtotal2 {
+  font-size: 32px;
+}
+
+.submitbutton,
+.resetbutton {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+body {
+  margin: 50px;
+}
+
+#receipt_header,
+#shippingheader,
+#billheader,
+#purchasedheader,
+#shippingdetails,
+#paymentdetails {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#date {
+  font-family: 'Bebas Neue', cursive;
+  color: #686663;
+  font-size: 18px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#receipt_header {
+  margin-bottom: 0;
+}
+
+#rname,
+#raddress,
+#rsecondaddress,
+#rcountry,
+#sname,
+#semail,
+#sphone,
+#saddress,
+#sadresstwo,
+#scountry,
+#pname,
+#pccinfo,
+#pccdate {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#billheader,
+#purchasedheader,
+#shippingdetails,
+#paymentdetails {
+  margin-bottom: 2px;
+}
+
+#shippingheader {
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: right;
+}
+
+
+#rgrandtotal {
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: right;
+}
+
+#rhoodie,
+#rhoodiesize,
+#rtshirt,
+#rtshirtsize,
+#rlongsleeve,
+#rlongsleevesize,
+#rmug,
+#rmugsize,
+#rtote,
+#rtotesize,
+#rhat,
+#rhatsize {
+  font-family: 'Alata', sans-serif;
+  text-align: right;
+}
+
+#rhoodiesize,
+#rtshirtsize,
+#rlongsleevesize,
+#rmugsize,
+#rtotesize,
+#rhatsize {
+  color: darkgray;
+  margin-top: 0;
+}
+
+#rhoodie,
+#rtshirt,
+#rlongsleeve,
+#rmug,
+#rtotebag,
+#rtote,
+#rhat {
+  margin-bottom: 0;
+}
+
+#thanks {
+  font-family: 'Poiret One', cursive;
+  color: red;
+}
+
+#buttons {
+  text-align: right;
+}
+
+#resetbutton {
+  margin: 0;
+  text-align: right;
+}
+
+#purchasedheader {
+  font-size: 28px;
+}
+
+#searchbox {
+  text-align: right;
+  font-family: 'Open Sans Condensed', sans-serif;
+  top: 6px;
+  left: 4px;
+  position: absolute;
+}
+
+#buttons2 {
+  top: 6px;
+  right: 10px;
+  position: absolute;
+  text-align: right;
+}
+
+#lbut2 {
+  padding-left: 13px;
+  padding-right: 12px;
+}
+
+#mm {
+  padding-left: 34px;
+  padding-right: 33px;
+}

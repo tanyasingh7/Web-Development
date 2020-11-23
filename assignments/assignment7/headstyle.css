@@ -1,0 +1,91 @@
+
+
+#header {
+  text-align: center;
+  font-size: 86px;
+  margin-bottom: 20px;
+}
+
+
+#body {
+  margin-top: 200px;
+}
+
+#newhead {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 4px;
+  margin-top: 25px;
+}
+
+#new {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+  color: darkgray;
+}
+
+#alreadyhead {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+#already {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+  color: darkgray;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+#mid {
+  text-align: center;
+}
+
+#registerform2,
+#loginform2 {
+  border-style: dotted;
+  border-color: black;
+  border-width: 2px;
+  padding: 10px;
+  padding-top: 25px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#registerform,
+#loginform {
+  margin-top: 25px;
+}
+
+h2 {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#main {
+  text-align: right;
+  position: fixed;
+  top: 5px;
+  right: 8px;
+}
+
+button {
+  padding: 2px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#r,
+#l {
+  font-size: 14px;
+  margin: 4px;
+}
