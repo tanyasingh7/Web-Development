@@ -1,0 +1,52 @@
+body {
+  background-color: #50394c;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  border-top: 2px;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Codystar', cursive;
+  color: white;
+}
+
+
+.flower {
+  height: 200px;
+}
+
+ul {
+  background-color: gray;
+  list-style: none;
+  text-align: center;
+  margin: 20px;
+  line-height: 1.18;
+  font-family: 'Gayathri', sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+
+
+a {
+  color: white;
+  font-family: 'Gayathri', sans-serif;
+}
+
+a:hover {
+  color: gray;
+}
+
+#assignments {
+  text-align: center;
+  font-size: 18px;
+  border: solid 1px white;
+  padding: 0;
+  margin: 0;
+}

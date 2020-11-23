@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Kristi|Libre+Caslon+Display|Oswald|Rock+Salt&display=swap" rel="stylesheet"');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway|Roboto&display=swap" rel="stylesheet");
+
+/* body {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: 395px -65px;
+  position: static;
+} */
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  position: static;
+  text-align: center;
+  font-size: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Kristi', cursive;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-top: -30px;
+}
+
+p {
+  font-family: 'Kristi', cursive;
+}
+
+ul {
+  position: relative;
+  margin-top: 0;
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  font-family: 'Kristi', cursive;
+  font-size: 16px;
+  padding-right: 30px;
+  padding-left: 5px;
+  margin-top: -30px;
+  margin-bottom: 5px;
+  text-align: center;
+  position: static;
+}
+
+.flex {
+  font-family: 'Kristi', cursive;
+  font-size: 44px;
+  text-decoration: none;
+  margin-top: -100px;
+}
+
+img {
+  margin-top: -100px;
+  height: 520px;
+  width: 820px;
+  margin-left: -15px;
+  position: static;
+  padding-bottom: 75px;
+}
+
+footer {
+  background-color: pink;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: double;
+  border-color: black;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.background {
+  position: relative;
+  top: 0;
+  left: -65px;
+  bottom: 80px;
+}
+
+.lastyear {
+  position: relative;
+  top: -4px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  height: 400px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+}
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+  color: black;
+}
+
+.nav {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Kristi', cursive;
+  font-size: 26px;
+}
+
+.nav2 {
+  font-family: 'Kristi', cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+
+.girl {
+  position: relative;
+}
+
+.explosion {
+  position: static;
+  margin-top: -200px;
+}
+
+ul {
+  position: relative;
+  margin-top: 0;
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+
+a:active {
+  color: purple;
+}
+
+a:hover {
+  color: gray;
+}

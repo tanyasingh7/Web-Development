@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css?family=Lateef|Reenie+Beanie|Roboto&display=swap" rel="stylesheet");
+
+body {
+  background-color: #ff9;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  border-top: 2px;
+}
+
+.header {
+  width: 450px;
+  height: 200px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.hero-image {
+  background-image: url("img/5.png");
+  height: 50%;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1,
+h2 {
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  font-size: 44px;
+}
+
+.sun {
+  height: 90px;
+  width: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.hearts {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+iframe {
+  position: relative;
+  padding-top: 80px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: none;
+}
