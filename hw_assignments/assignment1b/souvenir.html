@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Singh Family - 2018 Family Trip</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/desktop.css" media="(max-width: 1200px) and (min-width: 960px)">
+    <link rel="stylesheet" href="css/tablet.css" media="(max-width: 959px) and (min-width: 768px)">
+    <link rel="stylesheet" href="css/phone.css" media="(max-width: 767px) and (min-width: 320px)">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Mansalva|Nanum+Myeongjo|Oswald|PT+Sans|Pathway+Gothic+One|Quicksand|Raleway&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <!-- Hero Image -->
+    <div class="hero-image">
+    </div>
+    <h1> Singh Family - 2018 India Trip </h1>
+    <nav>
+    <ul>
+      <li>
+        <a href="index.html"> Home </a>
+      </li>
+      <li>
+        <a href='geography.html'> Geography </a>
+      </li>
+      <li>
+        <a href="goa.html">Goa </a>
+      </li>
+      <li>
+        <a href="mumbai.html"> Mumbai </a>
+      </li>
+      <li>
+        <a href="punjab.html"> Punjab </a>
+      </li>
+      <li>
+        <a href="agra.html"> Agra </a>
+      </li>
+      <li>
+        <a href="souvenir.html"> Request a Souvenir </a>
+      </li>
+      <li>
+        <a href="assignment4/products.html"> Products </a>
+      </li>
+    </ul>
+  </nav>
+	<hr>
+  <header><h1> Request a Souvenir! </h1> </header>
+	<form>
+    <fieldset>
+      <legend> Souvenir Request Form </legend>
+		Name: <input type = “text” width=70 required>
+		<br>
+    <br>
+		Email: <input type = “email”>
+		<br>
+    <br>
+		Date: <input type="date">
+		<br>
+    <br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+    <br>
+    <br>
+		Preferred Color of Souvenir: <input type = color>
+		<br>
+    <br>
+    Number of Souvenirs Desired::
+  <input type="number" name="quantity" min="1" max="5">
+		<br>
+    <br>
+      Chose the type of souvenir:
+    <select>
+    <optgroup label="Objects">
+      <option value="keychain">Key Chain</option>
+      <option value="magnet">Magnet</option>
+      <option value="shot glass"> Shot Glass </option>
+    </optgroup>
+    <optgroup label="Apparel">
+      <option value="tshirt">T-Shirt</option>
+      <option value="hoodie">Hoodie</option>
+      <option value="hat"> Hat </option>
+    </optgroup>
+  </select>
+  <br>
+  <br>
+  Price Range:
+<select id=price name=PriceRange>
+<option value = 10>Under $10</option>
+<option value = 10-25>$10 - $25</option>
+<option value = 25 selected>$25+</option>
+</select>
+<br>
+<br>
+    Where do you want the souvenir(s) from? (Check all applicable)<br>
+      <input type="checkbox" name="Goa" value="goa"> Goa<br>
+      <input type="checkbox" name="Mumbai" value="mumbai"> Mumbai<br>
+      <input type="checkbox" name="Punjab" value="punjab"> Punjab<br>
+      <input type="checkbox" name="Agra" value="Agra"> Agra <br>
+
+<br>
+Who is this souvenir for? (Check all applicable)<br>
+  <input type="checkbox" name="kid" value="kid"> A Kid<br>
+  <input type="checkbox" name="family" value="family"> A Family Member <br>
+  <input type="checkbox" name="lover" value="lover"> A Lover <br>
+  <input type="checkbox" name="colleague" value="colleague"> A Colleague <br>
+  <input type="checkbox" name="other" value="other"> Other <br>
+<br>Any additional comments:<br>
+	<textarea cols=”60” rows="10">
+</textarea>
+<br>
+<input type="submit">
+<input type="reset">
+</fieldset>
+</form>
+
+  </body>
+  <footer> © Copyright 2019 | Tanya Singh | All Rights Reserved.</footer>
+</html>
